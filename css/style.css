@@ -1,0 +1,58 @@
+img{
+	width:  100%;
+}
+span{
+	font-weight: bold;
+	color: #ff8c00;
+}
+li{
+	margin-bottom: 10px;
+}
+.platform_links{
+	display: flex;
+	justify-content: center;
+}
+.platform {
+	width:  50px;
+	margin: 0 3px;
+}
+.footer_store {
+	padding: 10px;
+}
+.footer_store p {
+	font-size: 70%;
+	text-align: center;
+	font-weight:  300;
+	color: grey;
+}
+.blogpost{
+	margin-bottom: 20px;
+	background-color: #FBE7C6;
+	padding: 15px;
+	border-radius: 10px;
+}
+.blogpost h2{
+	color:  #b76417;
+	margin-top: 0;
+}
+h1{
+	text-align: center;
+}
+.collection {
+	margin-bottom: 50px;
+}
+.contact_name {
+	display: flex;
+	justify-content: space-between;
+}
+.credit {
+	margin-top: 75px;
+}
+.menu{
+	background-color: transparent!important;
+	border:  none;
+	margin-left: 5px;
+}
+.content {
+	padding:  16px !important;
+}

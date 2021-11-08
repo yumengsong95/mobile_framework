@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head> 
+       <meta charset="utf-8">
+       <title>Mobile Framework</title>
+       <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+       <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+       <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+</head> 
+
+
+<body>
+       <div data-role = "page" id = "home">
+              <div data-role="panel" id="navpanel" data-display="overlay" >
+                     <div data-role = "controlgroup" data-type = "vertical">
+                            <a href="#home" data-role= "button">Home</a>
+                            <a href="#blog" data-role= "button">Blog</a>
+                            <a href="#merch" data-role= "button">Merch</a>
+                            <a href="#contact" data-role= "button">Contact</a>
+                     </div>
+                     <a href="#home" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-left ui-btn-inline ui-btn">Back</a>
+              </div>
+              
+              <div data-role = "header">
+                     <img src="img/logo_title.png">
+              </div>
+              <div data-role = "navbar" data-iconpos="top" >
+                     <ul>
+                            <li><a href="#home" data-icon = "home">Home</a></li>
+                            <li><a href="#blog" data-icon = "comment">Blog</a></li>
+                            <li><a href="#merch" data-icon = "shop">Merch</a></li>
+                            <li><a href="#contact" data-icon = "mail">Contact</a></li>
+                     </ul>     
+
+              </div>
+              <div data-role = "content" class = "content">
+                     <h2>You're moving to the Valley...</h2>
+                     <p>You've inherited your grandfather's old farm plot in Stardew Valley.</p>
+                     <p>Armed with hand-me-down tools and a few coins, you set out to begin your new life!</p>
+                     <img src="img/img-1.png">
+                     <h2>Features</h2>
+                     <ul>
+                            <li><span>Create the farm of your dreams:</span> Turn your overgrown fields into a lively and bountiful farm!</li>
+                            <li><span>Learn to live off the land:</span> Raise animals, go fishing, tend to crops, craft items, or do it all! The choice is yours...</li>
+                            <li><span>Become a part of the local community:</span> Pelican Town is home to over 30 residents you can befriend!</li>
+                            <li><span>Meet someone special:</span> With 12 townsfolk to date, you may even find someone to start a family with!</li>
+                            <li><span>Explore vast, mysterious caves:</span> Encounter dangerous monsters & valuable treasures deep underground!</li>
+                            <li><span>Customize:</span> There are hundreds of character & home decoration options to choose from!</li>
+                     </ul>
+              </div>
+              
+              <div data-role = "footer" class = "footer_store">
+                     <div  class = "platform_links">
+                           <div class = "platform">
+                                   <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="img/steam.png" ></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.humblebundle.com/store/stardew-valley" target="_blank"><img src="img/humble.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.gog.com/game/stardew_valley" target="_blank"><img src="img/gog.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.xbox.com/en-gb/games/store/stardew-valley/c3d891z6tnqm" target="_blank"><img src="img/xbox.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.playstation.com/en-us/games/stardew-valley/" target="_blank"><img src="img/ps.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Stardew-Valley-1287587.html" target="_blank"><img src="img/switch.png"></a>
+                            </div> 
+                            <div class = "platform">
+                                   <a href="https://apps.apple.com/us/app/stardew-valley/id1406710800" target="_blank"><img src="img/ios.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&hl=en_US" target="_blank"><img src="img/android.png"></a>
+                            </div>
+                     </div>
+
+                     <p>Stardew Valley Copyright © 2016-2021 ConcernedApe LLC</p>
+              </div>
+              <div data-role = "footer" data-position = "fixed" data-fullscreen="true" class = "menu">
+                     <a href="#navpanel" data-icon = "bars">Menu</a>
+              </div>
+              
+       </div>
+       <div data-role = "page" id ="blog">
+              <div data-role="panel" id="navpanel-blog" data-display="overlay" >
+                     <div data-role = "controlgroup" data-type = "vertical">
+                            <a href="#home" data-role= "button">Home</a>
+                            <a href="#blog" data-role= "button">Blog</a>
+                            <a href="#merch" data-role= "button">Merch</a>
+                            <a href="#contact" data-role= "button">Contact</a>
+                     </div>
+                     <a href="#blog" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-left ui-btn-inline ui-btn">Back</a>
+              </div>
+              
+              <div data-role = "header">
+                     <img src="img/logo_title.png">
+              </div>
+              <div data-role = "navbar" data-iconpos="top" >
+                     <ul>
+                            <li><a href="#home" data-icon = "home">Home</a></li>
+                            <li><a href="#blog" data-icon = "comment" >Blog</a></li>
+                            <li><a href="#merch" data-icon = "shop">Merch</a></li>
+                            <li><a href="#contact" data-icon = "mail">Contact</a></li>
+                     </ul>     
+
+              </div>
+              <div data-role = "content" class = "content">
+                     <h1>Developer Blog</h1>
+                     <div class = "blogpost">
+                            <h2>Stardew Valley Board Game — Taking orders again on Wednesday, 11/3</h2>
+                            <p>Hello everyone:</p>
+                            <p>I am very happy to announce that the Stardew Valley board game is about to be back in stock. We plan to begin taking orders through the Shopify site on Wednesday (November 3rd) starting at 12 noon PST.</p>
+                            <img src="img/blog01.jpeg">
+                            <p>There are a few things to mention:</p>
+                            <p><span>Shipping in time for Christmas may not be possible.</span> Games are being assembled in Michigan and transported to Florida for fulfillment as we speak. Our fulfillment company Quartermaster has let us know that these orders should arrive to customers before Christmas, but please be aware that the state of shipping (internationally and domestic) is severely impacted right now by world events. There may be delays that happen which are out of our control. We’ll do everything we can to get your copy to you as quickly as possible, but we just want to warn you about this before you buy. We cannot predict how long the game will take to reach you, and it may not arrive before Christmas.</p>
+                            <p><span>Distribution outside the US.</span> We did some investigation into how to make the game available outside of the US. Unfortunately selling and shipping directly is just too complicated at this time (mainly due to the complexities of sales taxes). However, this time around we are working with some distributors in Canada, Australia, New Zealand, the UK and EU. Copies of Stardew Valley will be available in some local stores in those regions. It’s not possible for us to keep track of which stores specifically, so the best way is to contact your local store and ask if they are carrying copies.</p>
+                            <p><span>Improvements to the game.</span> We spent time after the original launch to gather feedback and make some improvements. For example, many people felt that the Mines were too difficult. After looking more closely, we figured that a number of the Mine Map cards could result in frustrating results frequently, so these were adjusted. The difficulty is not much affected, but the chance of getting nothing for your efforts is greatly reduced.</p>
+                            <p>Also, we added an additional component tray to make storage easier and to decrease the time it takes to set up and put away the game.</p>
+                            <p>The rules and cards have many small adjustments to clarify questions that came up, but pretty much all the rules stayed the same. The only rule change we added was to make it so the museum grants a Heart as a reward for donating to it, a minor change that is represented in the rules and on the board.</p>
+                            <p><span>Please note:</span> Due to a supply shortage issue, some “Fishing Bags” will be black instead of blue.</p>
+                            <p>-ConcernedApe & Cole</p>
+                     </div>
+                     <div class = "blogpost">
+                            <h2>Stardew 1.5 Mobile Update</h2>
+                            <p>Hello everyone:</p>
+                            <p>I know you’ve all been waiting a while for the 1.5 update for Stardew Valley on mobile. While it is underway, it may be a while off yet. The main reason for this is that I had to get someone new to port the 1.5 update to mobile versions of the game, which has caused the mobile update to take much longer than it originally would have. Finding someone new to do the port took some time, but it was necessary.</p>
+                            <p>I appreciate your trust and patience, and want to assure you that I’m doing everything within my power to get the 1.5 update out to you all as soon as possible.</p>
+                            <p>-Ape</p>
+                     </div>
+              </div>
+              <div data-role = "footer" class = "footer_store">
+                     <div  class = "platform_links">
+                           <div class = "platform">
+                                   <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="img/steam.png" ></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.humblebundle.com/store/stardew-valley" target="_blank"><img src="img/humble.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.gog.com/game/stardew_valley" target="_blank"><img src="img/gog.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.xbox.com/en-gb/games/store/stardew-valley/c3d891z6tnqm" target="_blank"><img src="img/xbox.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.playstation.com/en-us/games/stardew-valley/" target="_blank"><img src="img/ps.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Stardew-Valley-1287587.html" target="_blank"><img src="img/switch.png"></a>
+                            </div> 
+                            <div class = "platform">
+                                   <a href="https://apps.apple.com/us/app/stardew-valley/id1406710800" target="_blank"><img src="img/ios.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&hl=en_US" target="_blank"><img src="img/android.png"></a>
+                            </div>
+                     </div>
+                     <p>Stardew Valley Copyright © 2016-2021 ConcernedApe LLC</p>
+              </div>
+              <div data-role = "footer" data-position = "fixed" data-fullscreen="true" class = "menu">
+                     <a href="#navpanel-blog" data-icon = "bars">Menu</a>
+              </div>
+       </div>
+       <div data-role = "page" id = "merch">
+              <div data-role="panel" id="navpanel-merch" data-display="overlay" >
+                     <div data-role = "controlgroup" data-type = "vertical">
+                            <a href="#home" data-role= "button" >Home</a>
+                            <a href="#blog" data-role= "button" >Blog</a>
+                            <a href="#merch" data-role= "button" >Merch</a>
+                            <a href="#contact" data-role= "button" >Contact</a>
+                     </div>
+                     <a href="#merch" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-left ui-btn-inline ui-btn">Back</a>
+              </div>
+              
+              <div data-role = "header">
+                     <img src="img/logo_title.png">
+              </div>
+              <div data-role = "navbar" data-iconpos="top">
+                     <ul>
+                            <li><a href="#home" data-icon = "home">Home</a></li>
+                            <li><a href="#blog" data-icon = "comment" >Blog</a></li>
+                            <li><a href="#merch" data-icon = "shop" >Merch</a></li>
+                            <li><a href="#contact" data-icon = "mail">Contact</a></li>
+                     </ul>     
+
+              </div>
+              <div data-role = "content" class = "content">
+                     <h1>Item Shop</h1>
+                     <h2>Featured Items</h2>
+                     <ul data-role="listview" data-split-theme="a" data-inset="true">
+                            <li>
+                                   <a href="#collector" data-rel="popup" data-position-to="window" data-transition="pop"><img src="img/collector_edition.png">
+                                   <h2>Stardew Valley Collector’s Edition</h2>
+                                   <p>Stardew Valley is now available as a physical edition</p></a>
+                            </li>
+                            <li>
+                                   <a href="#krobus" data-rel="popup" data-position-to="window" data-transition="pop">
+                                   <img src="img/krobus_plush.png">
+                                   <h2>Krobus Plush</h2>
+                                   <p>"Humans have... interesting tastes."</p></a>
+                            </li>
+                            <li>
+                                   <a href="#comic" data-rel="popup" data-position-to="window" data-transition="pop">
+                                   <img src="img/comic.png">
+                                   <h2>“Before The Farmer” Comic</h2>
+                                   <p>Every story has a beginning... </p></a>
+                            </li>
+                            <li>
+                                   <a href="#junimo" data-rel="popup" data-position-to="window" data-transition="pop">
+                                   <img src="img/junimo_plush.png">
+                                   <h2>Junimo Plush Set</h2>
+                                   <p>The Keepers of the forest - now available to keep. </p></a>
+                            </li>
+                     </ul>
+
+                     <div data-role="popup" id="collector" data-theme="a" data-overlay-theme="b" class="ui-content">
+                            <img src="img/collector_edition.png">
+                            <a href="https://www.fangamer.com/collections/stardew-valley/products/stardew-valley-switch-pc-collectors-edition-game" target="_blank" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-shop ui-btn-icon-left ui-btn-inline ui-mini">Buy on Fangamer</a>
+                            <a href="#merch" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Back</a>
+                     </div>
+                     <div data-role="popup" id="krobus" data-theme="a" data-overlay-theme="b" class="ui-content">
+                            <img src="img/krobus_plush.png">
+                            <a href="https://www.fangamer.com/products/stardew-valley-krobus-plush" target="_blank" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-shop ui-btn-icon-left ui-btn-inline ui-mini">Buy on Fangamer</a>
+                            <a href="#merch" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Back</a>
+                     </div>
+                     <div data-role="popup" id="comic" data-theme="a" data-overlay-theme="b" class="ui-content">
+                            <img src="img/comic.png">
+                            <a href="https://www.fangamer.com/collections/stardew-valley/products/stardew-valley-comic" target="_blank" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-shop ui-btn-icon-left ui-btn-inline ui-mini">Buy on Fangamer</a>
+                            <a href="#merch" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Back</a>
+                     </div>
+                     <div data-role="popup" id="junimo" data-theme="a" data-overlay-theme="b" class="ui-content">
+                            <img src="img/junimo_plush.png">
+                            <a href="https://www.fangamer.com/collections/stardew-valley/products/stardew-valley-junimo-plush-set" target="_blank" class="ui-shadow ui-btn ui-corner-all ui-btn-b ui-icon-shop ui-btn-icon-left ui-btn-inline ui-mini">Buy on Fangamer</a>
+                            <a href="#merch" data-rel="back" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-mini">Back</a>
+                     </div>
+
+                     <h2>Collections</h2>
+                     <div class = "collection">
+                            <img src="img/fangamer.png">
+                            <a href="https://www.fangamer.com/collections/stardew-valley" target="_blank" class="ui-shadow ui-btn ui-btn-b ui-corner-all ui-btn-inline ui-mini">View Fangamer Collection</a>
+                     </div>
+                     <div class = "collection">
+                            <img src="img/sanshee.jpg">
+                            <a href="https://sanshee.com/collections/stardew-valley" target="_blank" class="ui-shadow ui-btn ui-btn-b ui-corner-all ui-btn-inline ui-mini">View Sanshee Collection</a>   
+                     </div>
+                     <div class = "collection">
+                            <img src="img/Yetee.png">
+                            <a href="https://theyetee.com/collections/stardew-valley" target="_blank" class="ui-shadow ui-btn ui-btn-b ui-corner-all ui-btn-inline ui-mini">View The Yetee Collection</a>   
+                     </div>
+              </div>
+              <div data-role = "footer" class = "footer_store">
+                     <div  class = "platform_links">
+                           <div class = "platform">
+                                   <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="img/steam.png" ></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.humblebundle.com/store/stardew-valley" target="_blank"><img src="img/humble.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.gog.com/game/stardew_valley" target="_blank"><img src="img/gog.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.xbox.com/en-gb/games/store/stardew-valley/c3d891z6tnqm" target="_blank"><img src="img/xbox.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.playstation.com/en-us/games/stardew-valley/" target="_blank"><img src="img/ps.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Stardew-Valley-1287587.html" target="_blank"><img src="img/switch.png"></a>
+                            </div> 
+                            <div class = "platform">
+                                   <a href="https://apps.apple.com/us/app/stardew-valley/id1406710800" target="_blank"><img src="img/ios.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&hl=en_US" target="_blank"><img src="img/android.png"></a>
+                            </div>
+                     </div>
+                     <p>Stardew Valley Copyright © 2016-2021 ConcernedApe LLC</p>
+              </div>
+              <div data-role = "footer" data-position = "fixed" data-fullscreen="true" class = "menu">
+                     <a href="#navpanel-merch" data-icon = "bars">Menu</a>
+              </div>
+       </div>
+       <div data-role="page" id = "contact">
+               <div data-role="panel" id="navpanel-contact" data-display="overlay" >
+                     <div data-role = "controlgroup" data-type = "vertical">
+                            <a href="#home" data-role= "button" >Home</a>
+                            <a href="#blog" data-role= "button" >Blog</a>
+                            <a href="#merch" data-role= "button" >Merch</a>
+                            <a href="#contact" data-role= "button" >Contact</a>
+                     </div>
+                     <a href="#merch" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-left ui-btn-inline ui-btn">Back</a>
+              </div>
+              
+              <div data-role = "header">
+                     <img src="img/logo_title.png">
+              </div>
+              <div data-role = "navbar" data-iconpos="top">
+                     <ul>
+                            <li><a href="#home" data-icon = "home">Home</a></li>
+                            <li><a href="#blog" data-icon = "comment" >Blog</a></li>
+                            <li><a href="#merch" data-icon = "shop" >Merch</a></li>
+                            <li><a href="#contact" data-icon = "mail">Contact</a></li>
+                     </ul>     
+
+              </div>
+              <div data-role="content" class = "content">
+                     <h1>Contact Us</h1>
+                     <div class= "contact form">
+                            <div class = "contact_name">
+                                   <div>
+                                          <label for="first_name">First Name:</label>
+                                          <input type="text" name="first_name" id="first_name" value="">    
+                                   </div>
+                                   <div>
+                                          <label for="last_name">Last Name:</label>
+                                          <input type="text" name="last_name" id="last_name" value=""> 
+                                   </div>
+                            </div>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" value="">
+                            <label for="select-inquiry" class="select">Type of Inquiry:</label>
+                            <select name="select-inquiry" id="select-inquiry" >
+                                   <option value="0">- Please choose one -</option>
+                                   <option value="business">Business</option>
+                                   <option value="bug report">Bug Report</option>
+                                   <option value="merch">Merch</option>
+                                   <option value="other">Other</option>
+                            </select>
+                            <label for="message">Message:</label>
+                            <textarea cols="40" rows="8" name="message" id="message"></textarea>
+                            <input type="submit" value="Submit" >
+
+
+                            <h2 class = "credit">Credits</h2>
+                            <img src="img/ConcernedApe_logo.png">
+                            <p><span>Developer:</span> <a href="https://www.stardewvalley.net" target="_blank">ConcernedApe</a></p>
+                            <p><span>Publisher:</span></p>
+                            <p><a href="https://www.stardewvalley.net" target="_blank">ConcernedApe</a> – PC, Mac, Linux, Switch, Xbox One, Playstation 4, Playstation Vita</p>
+                            <p><a href="https://chucklefish.org/" target="_blank">Chucklefish</a>  – iOS, Android</p>
+                            <h2>Contact</h2>
+                            <p><span>Inquiries:</span> concernedape@stardewvalley.net</p>
+                            <p><span>Twitter:</span> <a href="https://twitter.com/concernedape" target="_blank">@ConcernedApe</a></p>
+                            <p><span>Website:</span> <a href="https://www.stardewvalley.net" target="_blank">stardewvalley.net</a></p>
+                     </div>
+              </div>
+              <div data-role = "footer" class = "footer_store">
+                     <div  class = "platform_links">
+                           <div class = "platform">
+                                   <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank"><img src="img/steam.png" ></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.humblebundle.com/store/stardew-valley" target="_blank"><img src="img/humble.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.gog.com/game/stardew_valley" target="_blank"><img src="img/gog.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.xbox.com/en-gb/games/store/stardew-valley/c3d891z6tnqm" target="_blank"><img src="img/xbox.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.playstation.com/en-us/games/stardew-valley/" target="_blank"><img src="img/ps.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Stardew-Valley-1287587.html" target="_blank"><img src="img/switch.png"></a>
+                            </div> 
+                            <div class = "platform">
+                                   <a href="https://apps.apple.com/us/app/stardew-valley/id1406710800" target="_blank"><img src="img/ios.png"></a>
+                            </div>
+                            <div class = "platform">
+                                   <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&hl=en_US" target="_blank"><img src="img/android.png"></a>
+                            </div>
+                     </div>
+                     <p>Stardew Valley Copyright © 2016-2021 ConcernedApe LLC</p>
+              </div>
+              <div data-role = "footer" data-position = "fixed" data-fullscreen="true" class = "menu">
+                     <a href="#navpanel-contact" data-icon = "bars">Menu</a>
+              </div>
+       </div>
+</body>
+</html>
